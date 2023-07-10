@@ -54,3 +54,62 @@
     background-color: red;
     color: white;
 }
+/*! Service Container Styles  */
+.servie-container {
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.service-des {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left-side-conatiner li {
+    margin-left: 15px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 8px grey; */
+}
+.first-two-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.icon {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.author-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 100px;
+}
