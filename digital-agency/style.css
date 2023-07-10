@@ -17,4 +17,40 @@
     font-size: 17px;
     font-style: italic;
     font-weight: bold;
+    cursor: pointer;
+}
+/*! banner Style  */
+.banner-container {
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),  linear-gradient(rgba(17, 16, 16, 0.4), rgba(112,112,112, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.title {
+    font-size: 75px;
+    font-weight: bold;
+    color: white;
+}
+.primary {
+    color: red;
+}
+.des {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.bg-primary {
+    background-color: red;
+    color: white;
 }
