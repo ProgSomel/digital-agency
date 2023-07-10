@@ -113,3 +113,22 @@
     border-right: 2px solid red;
     padding-right: 100px;
 }
+.phone-call {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid black;
+    padding-right: 30px;
+}
+.appointment-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 80px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -40px;
+    color: white;
+}
