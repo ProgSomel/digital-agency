@@ -132,3 +132,46 @@
     margin-top: -40px;
     color: white;
 }
+.blog-title {
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+.blog-des {
+    color: black;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    /* background-color: blue; */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px grey;
+}
+.blog-img {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.card-des {
+    padding: 10px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.blog-container {
+    width: 80%;
+    margin: auto !important;
+}
